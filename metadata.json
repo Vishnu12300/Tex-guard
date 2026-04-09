@@ -1,0 +1,5 @@
+{
+  "name": "FABRIC GUARD AI",
+  "description": "AI-powered fabric defect detection system using real-time camera and image uploads.",
+  "requestFramePermissions": ["camera"]
+}

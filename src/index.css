@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e3a8a; /* Dark Blue */
+  --color-accent: #22c55e;  /* Accent Green */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl rounded-2xl;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-blue-900 text-white font-semibold py-2 px-6 rounded-lg transition-all flex items-center gap-2;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-lg transition-all flex items-center gap-2;
+}
